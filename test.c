@@ -2,7 +2,6 @@
 #include <stdint.h>
 
 
-
 uint32_t secret[37] = {0};
 
 void Push(int y, int x, char val);
