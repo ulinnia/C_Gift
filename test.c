@@ -4,7 +4,7 @@
 #define MAX 49
 #define RANGE (MAX-1)
 
-uint32_t secret[49] = {0};
+uint32_t secret[MAX] = {0};
 
 void Push(int y, int x, char val);
 
@@ -84,7 +84,7 @@ int main(){
     }
     printf("%u,\n", secret[k]);
   }
-  printf("}");
+  printf("};");
 
   return 0;
 }
