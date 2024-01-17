@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdint.h>
 
-#define MAX 46
+#define MAX 51
 #define RANGE (MAX-1)
 
 char Pull(int x,int y);
@@ -22,6 +22,11 @@ uint32_t secret [MAX]={
     2802341032,
     2768783504,
     3305635840,
+    3258040320,
+    2770927616,
+    3341926400,
+    2770927616,
+    3308371968,
     524342,
     8257609,
     31588417,
@@ -71,7 +76,7 @@ int main(){
                 printf(" ");
             }
         }
-        if((i+1)%5==0 && i<17){
+        if((i+1)%5==0 && i<22){
             printf("\n");
         }
         printf("\n");
